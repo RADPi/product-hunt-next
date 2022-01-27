@@ -1,9 +1,8 @@
-/* eslint-disable @next/next/no-css-tags */
-/* eslint-disable @next/next/no-page-custom-font */
-import Head from 'next/head'
 import React from 'react'
 import Header from './Header'
 import { Global, css } from '@emotion/react'
+import Head from 'next/head'
+
 const Layout = props => {
 	return (
 		<>
@@ -58,7 +57,6 @@ const Layout = props => {
 			/>
 
 			<Head>
-				<html lang='es' />
 				<title>Product Hunt Firebase y Next.js</title>
 				<link
 					rel='stylesheet'
